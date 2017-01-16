@@ -1,0 +1,35 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align:center;
+}
+
+.single {
+  padding:80px 0;
+  border-bottom:solid 1px #333;
+}
+
+.single hr {
+  width:60%;
+  height:1px;
+  border:none;
+  background-color:#ccc;
+  color:#ccc;
+  margin:20px auto;
+  display:block;
+}
+
+form div {
+  height:150px;    
+  width:90%;
+  border:solid 1px #333;
+  position:relative;
+  margin:0 auto;
+  background:#fafafa;
+}
+form div label {
+  position:relative;top:70%;
+}
+form div input {
+  width:100%;height:100%;opacity:0;position:absolute;top:0;left:0
+}
